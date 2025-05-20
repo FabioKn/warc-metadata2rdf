@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="N4e2e8949c1074f34bd497bc045931c20">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#Record"/>
+    <ore:aggregates rdf:nodeID="Neff1e9b691fd43a688ac9b5aa5543be7"/>
+    <ore:aggregates rdf:nodeID="Nb23e8e28cfb34cb8b331cca15f00e6e3"/>
+    <ore:aggregates rdf:nodeID="N92e7081e3e2d40e3b86859b5d4d66478"/>
+    <ore:aggregates rdf:resource="http://example.org/"/>
+    <ore:aggregates rdf:nodeID="N99ad591b48704ba9ac184840bfd3a2fe"/>
+    <ore:aggregates rdf:resource="sha1:JI6OR3QR4CI526JD6TMMNZNV4QPMPQCH"/>
+    <ore:aggregates rdf:resource="sha1:O6G4S7PENQ6UCGOPWJGVXJH6FS2IOUJC"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N92e7081e3e2d40e3b86859b5d4d66478">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Record-ID"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;_WARC-Record-ID</rdfs:label>
+    <rdf:value>&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="sha1:33QKCM5PLVESD44TWF2WB4Z7X6BQJF62">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Block-Digest"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:ae56f6d4-a199-423e-b28c-91262bbf6bde&gt;_WARC-Block-Digest</rdfs:label>
+    <rdf:value>sha1:33QKCM5PLVESD44TWF2WB4Z7X6BQJF62</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1a724f4a9eb441ec8166be1a199c1fd2">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Date"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:ae56f6d4-a199-423e-b28c-91262bbf6bde&gt;_WARC-Date</rdfs:label>
+    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T16:20:32+00:00</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb1f5288c7b074ebba5908000fa43ffc5">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Date"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:080d9735-18d8-4e85-999b-2f59be445f1e&gt;_WARC-Date</rdfs:label>
+    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T14:52:09+00:00</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N459eccd9b77d4586b0cc1a890a2ffba1">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#Record"/>
+    <ore:aggregates rdf:nodeID="N6310c21238444fb6b3403dbf0a6820f2"/>
+    <ore:aggregates rdf:nodeID="Ne188f0f2e34847b88367bdf4bb6ec631"/>
+    <ore:aggregates rdf:resource="http://example.org/"/>
+    <ore:aggregates rdf:nodeID="N64589391ce0745c18d69ac313318e93d"/>
+    <ore:aggregates rdf:resource="sha1:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ"/>
+    <ore:aggregates rdf:nodeID="N843ded88468d48689593bc62e6f88dd8"/>
+    <ore:aggregates rdf:resource="sha1:BGLBXDDPM54J42HL5G7VVWRY3LEQUZWR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Target-URI"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;_WARC-Target-URI</rdfs:label>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:656be776-49aa-4236-b55c-be1e82eb456b&gt;_WARC-Target-URI</rdfs:label>
+    <rdf:value>http://example.org/</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd7bb89203fa14ce7a3f8a2e3f6f32036">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Filename"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:080d9735-18d8-4e85-999b-2f59be445f1e&gt;_WARC-Filename</rdfs:label>
+    <rdf:value>example1.warc.gz</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf6cea64599574ae1bc7d5a87fef2d6e6">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#Record"/>
+    <ore:aggregates rdf:nodeID="N5034a228aee84250828092d87ccfea93"/>
+    <ore:aggregates rdf:nodeID="Nb27c25e6cd9941388cb777279fb68322"/>
+    <ore:aggregates rdf:nodeID="Nd7bb89203fa14ce7a3f8a2e3f6f32036"/>
+    <ore:aggregates rdf:nodeID="Nb1f5288c7b074ebba5908000fa43ffc5"/>
+    <ore:aggregates rdf:resource="sha1:ANACGD7J3R5ILD7ZSNGMYTHJAFDFQ4BX"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5d4638db2fa14cf0996f5101586fbbd2">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#Record"/>
+    <ore:aggregates rdf:nodeID="Nb5e40c7a3af0478da6533ad8d9751a41"/>
+    <ore:aggregates rdf:nodeID="N72d08b325afa46b7b2f5c906cc66df8b"/>
+    <ore:aggregates rdf:nodeID="Nf5ee961fb5234a3fbafbebdb688b6e4b"/>
+    <ore:aggregates rdf:resource="http://example.org/favicon.ico"/>
+    <ore:aggregates rdf:nodeID="N46840f0b00284fa9b1322a455beb0229"/>
+    <ore:aggregates rdf:resource="sha1:JI6OR3QR4CI526JD6TMMNZNV4QPMPQCH"/>
+    <ore:aggregates rdf:resource="sha1:BZ4NSMCCOV6WTTTPDA5CEIUIMEML7B77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="sha1:ANACGD7J3R5ILD7ZSNGMYTHJAFDFQ4BX">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Block-Digest"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:080d9735-18d8-4e85-999b-2f59be445f1e&gt;_WARC-Block-Digest</rdfs:label>
+    <rdf:value>sha1:ANACGD7J3R5ILD7ZSNGMYTHJAFDFQ4BX</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne188f0f2e34847b88367bdf4bb6ec631">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Record-ID"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:656be776-49aa-4236-b55c-be1e82eb456b&gt;_WARC-Record-ID</rdfs:label>
+    <rdf:value>&lt;urn:uuid:656be776-49aa-4236-b55c-be1e82eb456b&gt;</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N843ded88468d48689593bc62e6f88dd8">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Concurrent-To"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:656be776-49aa-4236-b55c-be1e82eb456b&gt;_WARC-Concurrent-To</rdfs:label>
+    <rdf:value>&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb5e40c7a3af0478da6533ad8d9751a41">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-IP-Address"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;_WARC-IP-Address</rdfs:label>
+    <rdf:value>10.10.62.30</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f45888951fb4133845df5c773e00613">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Record-ID"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:ae56f6d4-a199-423e-b28c-91262bbf6bde&gt;_WARC-Record-ID</rdfs:label>
+    <rdf:value>&lt;urn:uuid:ae56f6d4-a199-423e-b28c-91262bbf6bde&gt;</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="sha1:O6G4S7PENQ6UCGOPWJGVXJH6FS2IOUJC">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Block-Digest"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;_WARC-Block-Digest</rdfs:label>
+    <rdf:value>sha1:O6G4S7PENQ6UCGOPWJGVXJH6FS2IOUJC</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N645b06871c0e4827ae039741c165394a">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Concurrent-To"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:ae56f6d4-a199-423e-b28c-91262bbf6bde&gt;_WARC-Concurrent-To</rdfs:label>
+    <rdf:value>&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="sha1:BZ4NSMCCOV6WTTTPDA5CEIUIMEML7B77">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Block-Digest"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;_WARC-Block-Digest</rdfs:label>
+    <rdf:value>sha1:BZ4NSMCCOV6WTTTPDA5CEIUIMEML7B77</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6310c21238444fb6b3403dbf0a6820f2">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Type"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:656be776-49aa-4236-b55c-be1e82eb456b&gt;_WARC-Type</rdfs:label>
+    <rdf:value>request</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="sha1:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Payload-Digest"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:656be776-49aa-4236-b55c-be1e82eb456b&gt;_WARC-Payload-Digest</rdfs:label>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:ae56f6d4-a199-423e-b28c-91262bbf6bde&gt;_WARC-Payload-Digest</rdfs:label>
+    <rdf:value>sha1:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb27c25e6cd9941388cb777279fb68322">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Record-ID"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:080d9735-18d8-4e85-999b-2f59be445f1e&gt;_WARC-Record-ID</rdfs:label>
+    <rdf:value>&lt;urn:uuid:080d9735-18d8-4e85-999b-2f59be445f1e&gt;</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndac2e12149ea4d18abfcbfe8e8bfc13d">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#Record"/>
+    <ore:aggregates rdf:nodeID="Ne52e1300bdf941d5b095edc28d7e5bcb"/>
+    <ore:aggregates rdf:nodeID="N3f45888951fb4133845df5c773e00613"/>
+    <ore:aggregates rdf:resource="http://example.org/favicon.ico"/>
+    <ore:aggregates rdf:nodeID="N1a724f4a9eb441ec8166be1a199c1fd2"/>
+    <ore:aggregates rdf:resource="sha1:3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ"/>
+    <ore:aggregates rdf:nodeID="N645b06871c0e4827ae039741c165394a"/>
+    <ore:aggregates rdf:resource="sha1:33QKCM5PLVESD44TWF2WB4Z7X6BQJF62"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neff1e9b691fd43a688ac9b5aa5543be7">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-IP-Address"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;_WARC-IP-Address</rdfs:label>
+    <rdf:value>10.10.62.30</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb23e8e28cfb34cb8b331cca15f00e6e3">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Type"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;_WARC-Type</rdfs:label>
+    <rdf:value>response</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N64589391ce0745c18d69ac313318e93d">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Date"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:656be776-49aa-4236-b55c-be1e82eb456b&gt;_WARC-Date</rdfs:label>
+    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T16:20:32+00:00</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="sha1:BGLBXDDPM54J42HL5G7VVWRY3LEQUZWR">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Block-Digest"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:656be776-49aa-4236-b55c-be1e82eb456b&gt;_WARC-Block-Digest</rdfs:label>
+    <rdf:value>sha1:BGLBXDDPM54J42HL5G7VVWRY3LEQUZWR</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf5ee961fb5234a3fbafbebdb688b6e4b">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Record-ID"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;_WARC-Record-ID</rdfs:label>
+    <rdf:value>&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="sha1:JI6OR3QR4CI526JD6TMMNZNV4QPMPQCH">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Payload-Digest"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;_WARC-Payload-Digest</rdfs:label>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;_WARC-Payload-Digest</rdfs:label>
+    <rdf:value>sha1:JI6OR3QR4CI526JD6TMMNZNV4QPMPQCH</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5034a228aee84250828092d87ccfea93">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Type"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:080d9735-18d8-4e85-999b-2f59be445f1e&gt;_WARC-Type</rdfs:label>
+    <rdf:value>warcinfo</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72d08b325afa46b7b2f5c906cc66df8b">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Type"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;_WARC-Type</rdfs:label>
+    <rdf:value>response</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne52e1300bdf941d5b095edc28d7e5bcb">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Type"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:ae56f6d4-a199-423e-b28c-91262bbf6bde&gt;_WARC-Type</rdfs:label>
+    <rdf:value>request</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/favicon.ico">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Target-URI"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;_WARC-Target-URI</rdfs:label>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:ae56f6d4-a199-423e-b28c-91262bbf6bde&gt;_WARC-Target-URI</rdfs:label>
+    <rdf:value>http://example.org/favicon.ico</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N99ad591b48704ba9ac184840bfd3a2fe">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Date"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:c2aefdd0-9bbd-4d73-81a3-bbd4121c6d6c&gt;_WARC-Date</rdfs:label>
+    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T16:20:32+00:00</rdf:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46840f0b00284fa9b1322a455beb0229">
+    <rdf:type rdf:resource="https://github.com/DOWARC/dowarc#WARC-Date"/>
+    <rdfs:label xml:lang="en">&lt;urn:uuid:31ee6876-e5a5-4d4d-86e5-3839a49290f5&gt;_WARC-Date</rdfs:label>
+    <rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T16:20:32+00:00</rdf:value>
+  </rdf:Description>
+</rdf:RDF>

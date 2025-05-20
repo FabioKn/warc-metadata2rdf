@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "warc-metadata2rdf"
+version = "0.1.0"
+description = ""
+authors = ["FabioKn <fabio.knoess@t-online.de>"]
+readme = "README.md"
+packages = [{ include = "warcmetadata"}]
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0.0"
+warcio = "^1.7.5"
+rdflib = "^7.1.4"
+click = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+warc2rdf = "warcmetadata.cli:extract_metadata"
