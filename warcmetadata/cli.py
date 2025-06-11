@@ -10,7 +10,8 @@ DOWARC = Namespace("https://github.com/DOWARC/dowarc#")
 ORE = Namespace("http://www.openarchives.org/ore/terms/")
 
 
-def load_dowarc_mapping():
+def load_dowarc_mapping(path_to_owl="warcmetadata/vocab/dowarc.owl"):
+
     """
     Load RDF vocabulary and map WARC header labels to ontology URIs.
     """
@@ -41,14 +42,35 @@ def safe_uri_or_bnode(value: str):
         # Optional: click.echo(f"?? Unsafe URI: {value} ? using BNode", err=True)
         return BNode()
 
-@click.command(help="Extract metadata from a WARC file and serialize it using the DOWARC vocabulary.")
-@click.option('--input', '-i', 'warc_path', required=True, type=click.Path(exists=True),
-              help='Path to the input WARC (.warc or .warc.gz) file.')
-@click.option('--output', '-o', 'output_path', required=True, type=click.Path(),
-              help='Path to the output RDF file.')
-@click.option('--format', '-f', 'rdf_format', default="xml", show_default=True,
-              type=click.Choice(["xml", "turtle", "nt", "n3"], case_sensitive=False),
-              help='Optional RDF serialization format.')
+
+@click.command(
+    help="Extract metadata from a WARC file and serialize it using the DOWARC vocabulary."
+)
+@click.option(
+    "--input",
+    "-i",
+    "warc_path",
+    required=True,
+    type=click.Path(exists=True),
+    help="Path to the input WARC (.warc or .warc.gz) file.",
+)
+@click.option(
+    "--output",
+    "-o",
+    "output_path",
+    required=True,
+    type=click.Path(),
+    help="Path to the output RDF file.",
+)
+@click.option(
+    "--format",
+    "-f",
+    "rdf_format",
+    default="xml",
+    show_default=True,
+    type=click.Choice(["xml", "turtle", "nt", "n3"], case_sensitive=False),
+    help="Optional RDF serialization format.",
+)
 def extract_metadata(warc_path, output_path, rdf_format):
     """
     Main CLI entrypoint: reads WARC file, extracts metadata, builds RDF, serializes graph.
@@ -90,6 +112,7 @@ def extract_metadata(warc_path, output_path, rdf_format):
 
     graph.serialize(destination=output_path, format=rdf_format)
     click.echo(f"Metadata exported to: {output_path} (Format: {rdf_format})")
+
 
 if __name__ == "__main__":
     extract_metadata()
